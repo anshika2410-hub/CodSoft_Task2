@@ -1,0 +1,199 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'bold', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Home Section */
+#home {
+    background: url('https://wallpaperaccess.com/full/5651980.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e5533d; /* Darker tomato */
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color:skyblue;
+}
+
+#about img {
+    /* width: 150px; */
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 20px;
+    background-color: peachpuff;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    display: inline-block;
+    width: calc(33.333% - 40px);
+    margin: 10px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project p {
+    padding: 0 10px 10px;
+}
+
+/* Achievements Section */
+#achievements {
+    padding: 50px 20px;
+    background-color:palegreen;
+}
+
+#achievements h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 50px 20px;
+    background-color: paleturquoise;
+}
+
+#certifications h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#certifications li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 50px 20px;
+    background-color:peachpuff;
+}
+
+#testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-left: 5px solid #ff6347;
+    background-color: #f9f9f9;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color:palegreen;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+   
